@@ -1,0 +1,22 @@
+* {
+	box-sizing: border-box;
+	
+	}
+
+body {
+	padding-left: 5%;
+	padding-right: 5%;
+}
+.container {
+	display: flex;
+	height: 300px;
+	flex-direction: column-reverse; /* or row */
+}
+
+.item {
+	color: #fff;
+	padding: 15px;
+	margin: 5px;
+	background: #3db5da;
+	border-radius: 3px;
+}

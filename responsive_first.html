@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>Responsive</title>
+<meta charset="utf-8">
+<meta name="description" content="Responsive"></head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"
+<link rel="stylesheet" href="css/normalize.css">
+
+<style>
+body{
+
+}
+
+#wrapper {
+	max-width: 1080px;
+	margin: 1em auto;
+	padding: 1em 2em;
+	border-radius: 24px;
+	background-color: #ccc;
+}
+#secondary {
+	background-color: #fff;
+}
+
+footer {
+	clear: both;
+	}
+
+@media screen and (min-width: 480px) {
+	#primary {
+		width: 50%;
+		float: left;
+	}
+	#secondary {
+		width: 40%;
+		float:right;
+	}
+}
+
+
+</style>
+</head>
+
+<body>
+
+	<div id="wrapper">
+		<h1>Sample Responsive 2 Column</h1>
+		<section id="primary">
+			<p>Today, a website must not look good only on a desktop screen, but also on tablets and smartphones. A website is responsive if it is able to adapt to the screen of the client. In this article, I’ll show you how to easily make a website responsive in three easy steps.</p>
+			<p>When building a responsive website, or making responsive an existing site, the first element to look at is the layout. When I build responsive websites, I always start by creating a non-responsive layout, fixed at the default size. For example, CatsWhoCode.com default width is 1100px. When I’m pleased with the non-responsive version, I add media queries and slight changes to my code to make the code responsive. It’s way easier to focus on one task at a time.</p>
+			<p>When you’re done with your non-responsive website, the first thing to do is to paste the following lines within the <head> and </head> tags on your html page. This will set the view on all screens at a 1×1 aspect ratio and remove the default functionality from iPhones and other smartphone browsers which render websites at full-view and allow users to zoom into the layout by pinching.</p>
+
+		</section>
+		<section id="secondary">
+			<ul>
+				<li>Address: Memory Lane</li>
+				<li>Phone: 000-000-0000</li>
+				<li>Email: zero@scaping.com</li>
+			</ul>
+		</section>
+		<footer>Copyright 2016 Web Dev</footer>
+
+	</div>
+</body>
+</html>
+
+
+
+

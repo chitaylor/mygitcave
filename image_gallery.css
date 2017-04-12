@@ -1,0 +1,35 @@
+#wrapper {
+	max-width: 1080px;
+	margin: 0 auto;
+	padding: 0 5%;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	max-width: 100%; /* allows image to fill full width of teh parent element on mobile */
+}
+
+#gallery {
+	margin: 0;
+	padding: 0;
+}
+
+#gallery li {
+	float: left;
+	width: 45%; /* the image in li will only ever take up 45% of its parent element */
+    margin: 2.5%; /* this % adds up to 10% + 90% = 100% */
+    background-color: #f5f5f5;
+    color: #bdc3c7;	
+    list-style: none;
+}
+
+#gallery li a p {
+	margin: 0;
+	padding: 5%; /* makes finger touch easier for text */
+	font-size: 1em;
+	color: #999;
+}
+

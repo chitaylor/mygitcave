@@ -1,0 +1,1 @@
+<footer> &copy; Copyright 2017 Christopher Taylor</footer>

@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+<title>Float Property</title>
+<meta charset="utf-8">
+<meta name="description" content="Float Property">
+
+<link rel="stylesheet" href="css/normalize.css">
+
+<style>
+
+/* float right */
+img {
+    float: right;
+    margin: 0 10px 10px 10px;
+
+.div1 {
+    float: left;
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    border: 3px solid #73AD21;
+}
+
+.div2 {
+    border: 1px solid red;
+}
+
+
+.div3 {
+    float: left;
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    border: 3px solid #73AD21;
+}
+	/* Using Clear */
+.div4 {
+    border: 1px solid red;
+    clear: left;
+}
+</style>
+</head>
+<body>
+
+
+<p>In this example, the image will float to the right in the paragraph, and the text in the paragraph will wrap around the image.</p>
+
+<p><img src="images/church.jpg" alt="The Curch Picture" width="200" height="200">
+The Church of England (C of E) is the Anglican Christian state church of England.[2][3][4] The Archbishop of Canterbury (currently Justin Welby) is the most senior cleric, although the monarch is the supreme governor. The Church of England is also the mother church of the international Anglican Communion. Its formal establishment as a national church is dated to the 6th-century Gregorian mission in Kent led by Augustine of Canterbury,[5][6] with considerable features introduced and established during and following the English Reformation in the 16th century.
+The English church renounced papal authority when Henry VIII sought to secure an annulment from Catherine of Aragon in the 1530s.[7] The English Reformation accelerated under Edward VI's regents before a brief restoration of papal authority under Queen Mary I and King Philip. The Act of Supremacy 1558 renewed the breach and the Elizabethan Settlement charted a course whereby the English church was to be both Catholic and Reformed:
+Catholic in that it views itself as a part of the universal church of Jesus Christ in unbroken continuity with the early apostolic church. This is expressed in its emphasis on the teachings of the early Church Fathers, as formalised in the Apostles', Nicene, and Athanasian creeds.[8]
+Reformed in that it has been shaped by some of the doctrinal principles of the 16th-century Protestant Reformation, in particular in the Thirty-Nine Articles of Religion and the Book of Common Prayer.[8]
+In the earlier phase of the English Reformation there were both Catholic martyrs and radical Protestant martyrs. The later phases saw the Penal Laws punish Roman Catholic and nonconforming Protestants. In the 17th century, political and religious disputes raised the Puritan and Presbyterian faction to control of the church, but this ended with the Restoration. Papal recognition of George III in 1766 led to greater religious tolerance.</p>
+
+
+
+<h2>Without clear</h2>
+<div class="div1">div1</div>
+<div class="div2">div2 - Notice that the div2 element is after div1, in the HTML code. However, since div1 is floated to the left, this happens: the text in div2 is floated around div1, and div2 surrounds the whole thing.</div>
+
+<h2>Using clear</h2>
+<div class="div3">div3</div>
+<div class="div4">div4 - Using clear moves div4 down below the floated div3. The value "left" clears elements floated to the left. You can also clear "right" and "both".</div>
+
+
+</body>
+</html>

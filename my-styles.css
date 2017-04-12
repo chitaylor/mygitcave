@@ -1,0 +1,82 @@
+
+.navbar-brand {
+	text-decoration: none;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	
+	
+				}
+
+.navbar {
+	text-decoration: none;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	
+			}
+
+.navbar-center {
+	text-decoration: none;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	
+				}
+
+.navbar-default{
+	text-decoration: none;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	
+				}
+
+
+
+.container {
+	text-decoration: none;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;	
+			}
+
+#center-logo {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#logo {
+	text-decoration: none;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;	
+	background-color: red;
+}
+
+body {
+	font-size: 16px;
+	background-color: skyblue;
+	/*min-height: 2000px;
+	padding-top: 70px;*/
+}
+
+.jumbotron h1 {
+	font-size: 5em;
+}
+
+.myjumbo{
+	background-image:;
+}
+
+mark {
+	background-color: hsla(0, 100%, 30%, 0.2);
+}
+
+footer {
+	padding: 10px;
+	text-align:left;
+}
+
+

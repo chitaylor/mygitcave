@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>jQuery</title>
+	<meta charset="utf-8">
+	<meta name="description" content="jQuery">
+	<meta name="viewport" content="width=device-width initial-scale=1.0">
+	<link rel="stylesheet" href="css/component.css">
+	<link rel="stylesheet" href="css/demo.css">
+	<link rel="stylesheet" href="css/normalize.css">
+</head>
+
+<body>
+
+<section id="photostack-1" class="photostack photostack-start">
+	<div>
+
+		<!-- default Polaroid without backside -->
+		<figure>
+			<a href="http://goo.gl/Qw3ND4" class="photostack-img">
+				<img src="img/1.jpg" alt="img01"/>
+			</a>
+			<figcaption>
+				<h2 class="photostack-title">Serenity Beach</h2>
+			</figcaption>
+		</figure>
+
+		<!-- Polaroid with backside -->
+		<figure>
+			<a href="http://goo.gl/fhwlSP" class="photostack-img">
+				<img src="img/2.jpg" alt="img02"/>
+			</a>
+			<figcaption>
+				<h2 class="photostack-title">Happy Days</h2>
+				<!-- optional backside -->
+				<div class="photostack-back">
+					<p>Fish don't fry in the kitchen and beans don't burn on the grill. Took a whole lotta tryin' just to get up that hill. Baby if you've ever wondered - wondered whatever became of me. </p>
+				</div>
+			</figcaption>
+		</figure>
+
+		<!-- Example for different shuffle iteration count -->
+		<figure data-shuffle-iteration="3">
+			<!-- ... -->
+		</figure>
+
+		<!-- Example for a "dummy" Polaroid -->
+		<figure data-dummy>
+			<a href="#" class="photostack-img"><img src="img/7.jpg" alt="img07"/></a>
+			<figcaption>
+				<h2 class="photostack-title">Lovely Green</h2>
+			</figcaption>
+		</figure>
+		
+		<!-- ... -->
+	</div>
+</section>
+
+</body>
+
+
+<script src="js/modernizr.min.js"></script>
+<script src="js/classie.js"></script>
+<script src="js/photostack.js"></script>
+
+</html>

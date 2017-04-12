@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+<title>Sections</title>
+<meta charset="utf-8">
+<meta name="description" content="Basic HTML Elements">
+
+<link rel="stylesheet" href="css/normalize.css">
+
+<style>
+
+body {
+	font-family: 'verdana', sans-serif;
+	background-color: darkblue;
+	margin:0;
+}
+
+header {
+
+	height: 80px;
+	background-color: khaki;
+	text-align: center;
+	font-size: 24px;
+	color: black;
+	line-height: 80px;  /* line-height = height to center text in header */
+		/* position: fixed; */
+}
+
+main{
+	margin-left:10%;
+	margin-right:10%;
+	margin-top:0;
+	margin-bottom:0;
+
+	/* or simple form clockwishe*/
+	margin: 0 10% 0 10%;
+
+}
+
+nav {
+	text-align: center;
+}
+
+h1 {
+	color: black;
+}
+
+p img {					/* image in a paragraph  */
+	/*display:block;*/
+	float:right;
+}
+
+div {
+	background-color: yellow;
+	padding: ;
+	margin: ;
+	font-size: ;
+}
+
+a{
+	text-decoration: none; /* gets rid of things line underlines */
+	color: darkblue;
+
+}
+
+a:visited {
+	color: #999;
+}
+
+
+a:hover {
+	color : red;
+}
+
+a:active {
+	color: #000;
+
+		 }
+
+
+aside {
+	background-color: blue;
+	padding: 6px;
+	font-size 24px;
+	font-style: italic;
+	color: #ff6600;
+	float: right;
+	width: 25%;
+}
+
+article {
+
+	color: red;
+	background-color: #eee;
+
+}
+
+.wrapper {  /* containing element, also called shell or outline */
+
+	width: 90%;
+	border: 1px solid black;
+	margin: 0 auto;
+
+}
+
+
+</style>
+
+</head>
+
+<body><!-- This is the start of the body -->
+
+	<div class="wrapper">
+
+	<a id="top">
+
+	<header>BULLFROGS! + BANNER</header>
+
+	<nav>
+			<a href="#">AMERICAN</a> | <a href="#">BONDED</a> | <a href="#">BRANDED</a> | <a href="#">FRENCH</a>
+		</nav>
+
+	<main>
+
+		<h1>All About Frogs</h1>
+		
+		<p><a href="#World1">Jump to image</a></p><!-- # used as id -->
+
+		<section><h2>SECTION 1</h2>	
+
+		<aside>		
+
+			<blockquote>The American bullfrog, often simply known as the bullfrog in Canada and the United States, is an amphibious frog, a member of the family Ranidae, or “true frogs”</blockquote>
+
+		</aside>
+
+		</section>
+
+			
+
+		<section><h2>SECTION 2</h2>
+
+			<p>Bullfrogs are the largest real frog found in North America, weighing up to 0.5 kg and measuring 460 mm in length. Their average length is 100-175 mm. Their color varies from brownish to shades of green, often with spots or blotches of a darker color around their backs. Their back feet are fully webbed. The sex of an adult bullfrog can be found out easily by examining the size of the tympanum (the external ear of the frog) relative to size of the eye. The tympanum is a round circle located on the side of the head near the eye, and in males it is much larger than the eye. In females the tympanum is as large or smaller than the eye. Also, during the breeding season the throat of the male bullfrog is yellow, and the female's is white.</p></section>
+
+			<div>
+				My frogs are the best!
+			</div>
+
+			<hr><!-- Horizontal Rule -->
+
+			<section><h2>Jumping Frog Videos</h2></section>
+			<iframe src="https://www.youtube.com/embed/KCtSxQDN37w" width="560" height="315" frameborder="0" allowfullscreen></iframe><!-- Embed a Video -->
+
+			<br>
+			<hr>
+			<br>
+
+			<section>
+				<h2>Hot News</h2>
+			<article><h3> Aircraft carriers are not the crucial element in the defense against terrorism.</h3><p> They do provide a flexible means of bringing warplanes and intelligence-gathering aircraft to areas where terrorists are being hunted, like off the coast of Libya or in the Persian Gulf, but their main function is to deter bigger wars with state powers like China, Russia and North Korea. The Pentagon’s counterterrorism campaigns rely more on special operations forces, Air Force fighters and surveillance drones, military trainers and advisers and the intelligence agencies.</p>
+			</article></section>
+
+			<p><h2>World Images</h2></p>
+
+			<p><img id="World1" src="images/painted-globe.jpg" width="300" height="300" border="3">What a beautiful world! I have never seen such a wonderful thing!Bullfrogs are the largest real frog found in North America, weighing up to 0.5 kg and measuring 460 mm in length. Their average length is 100-175 mm. Their color varies from brownish to shades of green, often with spots or blotches of a darker color around their backs. Their back feet are fully webbed. The sex of an adult bullfrog can be found out easily by examining the size of the tympanum (the external ear of the frog) relative to size of the eye. The tympanum is a round circle located on the side of the head near the eye, and in males it is much larger than the eye. In females the tympanum is as large or smaller than the eye. Also, during the breeding season the throat of the male bullfrog is yellow, and the female's is white.</p>
+</main>
+
+	<p><a href="#top">Link to Top</a></p>
+
+
+</div>
+	
+<footer> &copy Copyright 2017 Christopher Taylor</footer>
+
+</body>
+</html>
+
+
+
+
+
+
+
+	

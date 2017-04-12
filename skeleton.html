@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>Skeleton</title>
+<meta charset="utf-8">
+<meta name="description" content="Skeletons"></head>
+
+<link rel="stylesheet" href="css/normalize.css">
+
+<!-- <link href="https://fonts.googleapis.com/css?fmily=Indie+Flower" rel=
+	"stylesheet">  -->
+
+<style>
+
+/* body {font-family: 'Indie Flower', cursive;}
+
+special {
+ 	font-family: 'Indie Flower', cursive;  */
+}
+
+header,nav,section,article,footer
+{
+	border:1px solid grey; margin:5px; padding:8px;
+}
+
+nav ul {margin:0; padding:0}
+nav ul li {display:inline; margin:5px;}
+
+nav ul li a{
+	color:red;
+	text-decoration:none;
+	cursor:pointer:;
+}
+
+nav ul li a:hover {
+	color: orchid;
+}
+
+aside { float:right; background-color: lightblue; padding: 2px; margin: 12px;}
+
+#leaderboard {
+	background-color: yellow;
+	max-width: 728px;
+	text-align: center;
+	margin: 0 auto;
+	}
+
+article h2{
+	margin:0 auto;
+
+}
+
+.featured{
+	font-size:1em;
+	color: #667;
+}
+
+.topstory{
+	font-size:1.5em;
+	font-weight: bold;
+}
+
+h3 {
+	margin:0,0,0,0;
+	font-size:1em;
+	font-color:red;
+}
+
+</style>
+
+<script>
+function myFunction2() {
+	document.getElementById('functiontest').innerHTML = "Hey I made a
+		function!";}</script>
+
+</head>
+
+<body>
+
+
+<header>
+	<h1>HTML5 Skeleton</h1>
+	</header>
+
+	<nav>
+	<ul>
+	<li><a href="#">Button 1</a></li>
+	<li><a href="#">Button 2</a></li>
+	<li><a href="#">Button 3</a></li>
+	</ul>
+	</nav>
+
+	<div id="leaderboard">Ad goes here</div>
+
+	<div id="containerDiv"></div>
+
+	<script>
+	var container = document.getElementById("containerDiv");
+	container.innerHTML = "I just mainipulated the DOM!";
+	</script>
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+<br />
+<br />
+
+<p id="demo"></p>
+
+
+<button type="button" onclick="document.getElementById('text').innerHTML
+	='This is the text'">Click for text!</button>
+
+<p id="text"></p>
+
+
+<button onclick="myFunction2()">Click Me</button>
+
+
+<p id="functiontest">Test area</p>
+
+
+
+	<aside>This content goes to the right<br><img src="images/navy.jpg" width="300">
+	</aside>
+
+
+	<section>
+	<h1>Famous Cities</h1>
+
+
+	<article>
+	<h2>Paris</h2>
+	<p>Paris is the capital and most populous city of France.</p>
+	</article>
+
+	<article class="featured topstory">
+	<h2>London on Fire!</h2>	
+	<p>London is the capital and most populous city of England.</p>
+	</article>
+
+	<article>
+	<h2>Tokyo</h2>
+	<p>Tokyo is the captital city of Japan.</p>
+	</article>
+
+	</section>
+
+
+
+</body>
+
+</html>

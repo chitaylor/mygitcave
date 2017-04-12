@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+<title>Intro to Forms</title>
+<meta charset="utf-8">
+<meta name="description" content="Basic HTML Elements">
+
+<link rel="stylesheet" href="css/normalize.css">
+
+<style>
+
+html {
+	font-size:;
+}
+
+<body>
+	<h1>School Application</h1>
+	<p>Please fill out this form</p>
+
+	<form>
+
+
+First Name: <input type="text" name="first" maxlength="20" value="required"><br>
+Last Name: <input type="text" naem="last" maxlentgh="20" value="required">
+<sup style="color:red">*</sup><br>
+
+Phone: <input type="text" name="phone" maxlenght="10" value="e.g.4801234567"
+required><br><br>
+
+Student? <input type="radio" name="student" value="student" checked><btr>
+Non-Student? <input type="radio" name="student" value="non-student"><br><br>
+
+School Loans? <input type="checkbox" name="loan" checked><br>  <!-- checked is for default check -->
+Grants? <input type="checkbox" name="grant"><br>
+Scholarship? <input type="checkbox" name="scholar"><br><br>"
+
+How did you find us?<br>
+<select name="find">
+	<option value="adverstisement">Advertisement</option>
+	<option value="friend">Friend/Family</option>
+	<option value="alumni"> Alumni</option>
+	<option value="online">Online</option>
+	<option value="school">Curren School</option>
+</select>
+
+<br><br>
+
+Why do you want to attend here? (max characters 500),<br>
+<textarea name="message" rows="10" cols="100" maxlength="500"></textarea>
+<br>
+
+<input type="submit" value="submit" class="submitbtn">
+
+</form>
+
+
+</form>
+</body>
+</head>
+</html>
+
+
+
+
+
